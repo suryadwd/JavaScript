@@ -53,3 +53,25 @@
 // a()      //we are calling the add class so get the different value
 // a()      // as 1 2 3 
 // a()
+
+
+// implement the function that limit how many times the another function can be called
+
+// function abc(fun, limit){
+//   let cnt = 0;
+//   return function checker(){
+//          if(cnt < limit) fun();
+//           cnt++;
+//   }
+// }
+
+
+// let fun = abc(function(){console.log("chala")},3)
+
+// fun()  //give value
+// fun()  //give value
+// fun()  //give value
+// fun()  //not give any value
+// fun()  //not give any value
+// fun()  //not give any value
+
