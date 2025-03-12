@@ -37,5 +37,19 @@
 
 
 
-
-
+//  function abc(){
+//      var cnt = 0;
+//      return function add(){
+//          cnt++;
+//          console.log(cnt)
+//      };
+//  }
+ 
+// // abc()()   will call the main function again and again and only 1
+// // abc()()   will be printed each times
+// // abc()()   
+ 
+// let a = abc()  //this will create a instance of the main class once
+// a()      //we are calling the add class so get the different value
+// a()      // as 1 2 3 
+// a()
