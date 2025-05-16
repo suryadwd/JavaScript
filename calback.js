@@ -38,3 +38,21 @@
 // then ka matlab hai jab promise resolve ho gaya
 // catch ka matlab hai jab promise reject ho gaya
 // ye dono hi function hote hai jo promise ke sath attach hote hai
+
+
+// simulating a food delivery
+
+// task : create a func orderFood that return a promise. It resolve after 2 sec with "Pizza delever"
+// and reject with "Sorry, we are out of stock" 
+
+
+
+function orderFood(){
+  return new Promise((res, rej) => {
+      setTimeout(()=>{
+        res();
+      }, 2000)
+  })
+}
+
+orderFood().then(() => {console.log("Pizza delivered")}).catch(() => {console.log("Sorry, we are out of stock")})
